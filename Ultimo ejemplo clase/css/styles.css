@@ -1,0 +1,13 @@
+.circulo{
+    background-color: red;
+    clip-path: circle(50% at 50% 50%);
+    width: 200px;
+    height: 200px;
+}
+
+.poligono{
+    background-color: blueviolet;
+    clip-path: clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 200px;
+    height: 200px;
+}
