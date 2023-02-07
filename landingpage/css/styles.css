@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.header{
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+}
+
+.header > ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.logo{
+    font-size: 35px;
+    padding: 10px;
+    float: left;
+    border: 1px solid black;
+
+}
+.menu{
+    right: 0;
+    float: right;
+    padding: 15px 25px;
+}
+.menu > li >a {
+    right: 0;
+    float: right;
+    padding: 15px 25px;
+    color: #2ebd94;
+}
+
+.header .menu{
+    clear: both;
+    max-height: 0;
+
+}
+
+.header .menu a:hover {
+    background-color: #2ebd94;
+    color: #fff;
+}
+
+.header .menu-icon{
+    position: relative;
+    float: right;
+    padding: 30px 20 px;
+    display: block;
+    cursor: pointer;
+    /*height: 2px;
+    width: 30px;
+    background-color: #2ebd94;*/
+}
+
+.header .nav-icon{
+    position: relative;
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: #2ebd94;
+}
+
+.header .menu-icon .nav-icon ::after{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #2ebd94;
+    top: -7px;
+}
+
+.header .menu-btn{
+    display: none;
+}
+
+.header .menu-btn:checked~.menu{
+    max-height: 600px;
+}
+.header .menu-btn:checked~.menu{
+    max-height: 600px;
+}
+
